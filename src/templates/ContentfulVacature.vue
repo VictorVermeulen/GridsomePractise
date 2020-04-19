@@ -15,14 +15,13 @@
       >{{ $page.contentfulVacature.vastTijdelijk }}
     </p>
     <div v-html="$page.contentfulVacature.body" class="makeup"></div>
-    <h2 class="mt-4">Wij vragen</h2>
+    <h2 class="mt-4">We ask</h2>
     <div v-html="$page.contentfulVacature.wijVragen" class="makeup"></div>
-    <h2 class="mt-4">Wij bieden</h2>
+    <h2 class="mt-4">We offer</h2>
     <div v-html="$page.contentfulVacature.wijBieden" class="makeup"></div>
-    <h2 class="mt-4">Interesse?</h2>
+    <h2 class="mt-4">Interest?</h2>
     <p>
-      Neem dan contact op via Whatsapp of bel me even op +012345678! Je kan
-      uiteraard ook altijd mailen: 123@gmail.com!
+      Please contact me on +1298323574 or email me at 123@gmail.com
     </p>
   </Layout>
 </template>

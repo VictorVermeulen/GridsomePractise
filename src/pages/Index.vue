@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="text-center">Vacatures</h1>
+    <h1 class="text-center">Jobs</h1>
 
     <v-container>
       <v-row dense>
@@ -17,10 +17,10 @@
 
             <p class="ml-3"><v-icon>mdi-city</v-icon> {{ edge.node.plaats }}</p>
             <p class="ml-3">
-              <v-icon>mdi-clock</v-icon>Uren per week: {{ edge.node.uren }}
+              <v-icon>mdi-clock</v-icon>Hours per week: {{ edge.node.uren }}
             </p>
             <p class="ml-3">
-              <v-icon>mdi-currency-eur</v-icon>Salaris: {{ edge.node.salaris }}
+              <v-icon>mdi-currency-eur</v-icon>Salary: {{ edge.node.salaris }}
             </p>
             <p class="ml-3">
               <v-icon>mdi-account-circle</v-icon>{{ edge.node.vastTijdelijk }}
@@ -30,7 +30,7 @@
               >{{ edge.node.body.substring(0, 200) }} ...
             </v-card-text>
 
-            <v-btn color="success" class="ma-4">Meer Informatie?</v-btn>
+            <v-btn color="success" class="ma-4">More info</v-btn>
           </v-card>
         </v-col>
       </v-row>

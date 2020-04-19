@@ -63,7 +63,7 @@ export default {
     return {
       links: [
         {
-          label: 'Vacatures',
+          label: 'Jobs',
           url: '/',
         },
         {
